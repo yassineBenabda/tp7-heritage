@@ -5,5 +5,4 @@ abstract class Assiette extends Ustensile {
 		super(annee);
 	}
 	public abstract double calculerSurface();
-	public abstract double calculerValeur();
 }

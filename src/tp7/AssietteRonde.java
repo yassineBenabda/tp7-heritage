@@ -12,11 +12,4 @@ public class AssietteRonde extends Assiette {
 	public double calculerSurface() {
 		return 3.14 * rayon *rayon;
 	}
-	public double calculerValeur() {
-		int age = 2024 - this.getAnnee();
-		if (age <= 50)
-			return 0;
-		else 
-			return age - 50;
-	}
 }
